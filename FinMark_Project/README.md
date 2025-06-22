@@ -1,6 +1,7 @@
 Project Documentation: FinMark Data Analytics Pipeline - Milestone 2
 
 1. What was set up and why
+   
 Project Structure: I organized the project into dedicated folders (data, scripts, notebooks, output, config). This was done to maintain a clean and professional structure, separating raw data from processed data, and exploratory code (notebooks) from reusable code (scripts).
 
 Dependency Management (requirements.txt): I created a requirements.txt file listing all necessary Python libraries (like Pandas, Prophet, and PyYAML). This ensures that the project environment is reproducible and can be easily set up by anyone with a single command (pip install -r requirements.txt).
@@ -18,6 +19,7 @@ Data Limitations for Segmentation: My Milestone 1 proposal included RFM-based cu
 Library Warnings: When running the script, Prophet produced a warning: Importing plotly failed. I identified this not as an error but as an informational message indicating an optional dependency for interactive plots was missing. Since my script's purpose was to save static .png files, this did not affect the successful outcome
 
 3. What Worked and What Needs Refinement
+   
 What Worked:
 The run_forecasting.py script executed successfully from the command line, proving the functional module is working as intended.
 The script correctly read the configurations, processed the data, and generated the expected output files (sales_forecast.csv, sales_forecast_plot.png) in the output/ directory.
