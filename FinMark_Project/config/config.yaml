@@ -1,0 +1,11 @@
+# File paths
+raw_data_path: "data/raw/marketing_summary.csv"
+processed_data_path: "data/processed/"
+output_path: "output/"
+
+# Model Parameters
+forecasting:
+  prediction_periods: 30 # Number of days to forecast into the future
+  plot_title: "Sales Forecast for the Next 30 Days"
+  plot_xlabel: "Date"
+  plot_ylabel: "Predicted Sales"
